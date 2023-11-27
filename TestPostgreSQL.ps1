@@ -1,3 +1,5 @@
+Install-Module -Name Npgsql
+
 function ConnectToPostgreSQL {
     param (
         [string]$Server,
